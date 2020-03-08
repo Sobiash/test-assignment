@@ -1,0 +1,1 @@
+var menuBtn=document.querySelector(".main-menu__btn"),mainPage=document.querySelector(".main__page"),showMenu=!1;function toggleMenu(){showMenu=showMenu?(mainPage.classList.remove("show-menu"),!1):(mainPage.classList.add("show-menu"),!0)}menuBtn.addEventListener("click",toggleMenu);
